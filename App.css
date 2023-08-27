@@ -1,0 +1,46 @@
+
+.container{
+max-width: 50%;
+}
+#textarea{
+    font-weight: bold;
+    resize: none;
+    /* background-color: rgb(4, 4, 31); */
+}
+
+.lertDiv{
+    min-height: 10vh;
+    
+    }
+
+  
+    
+@media all and (max-width:750px) and (min-width:500px) {
+ 
+    .container{
+        max-width: 80%; 
+      
+    }}
+
+@media all and (max-width:499px) and (min-width:200px) {
+    .container{
+        max-width: 100%; 
+        font-size: 90%;
+    }
+    .container>.buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;}
+    
+    h4,h2,p{
+        font-size: 90%;
+        display: grid;
+        place-items: center;
+    }
+}
+
+    
+
+
+
+
